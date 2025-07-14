@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fav Game List</title>
+  <link rel="icon" href="icon(DON'T STEAL IT).png">
+
+  <!-- Custom Font -->
+  <style>
+    @font-face {
+      font-family: "STEREOHI";
+      src: url("STEREOHI.TTF") format("truetype");
+    }
+  </style>
+
+  <!-- Styles -->
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: url('https://wallpaperaccess.com/full/2044030.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .frost-glass {
+      background-color: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+    }
+
+    /* Loader */
+    /*.loader-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #b32bc2;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: fadeOut 0.5s ease 4s forwards;
+    }
+
+    #loader {
+      position: relative;
+      width: 5.4em;
+      height: 5.4em;
+    }
+
+    #hill {
+      position: absolute;
+      width: 7.1em;
+      height: 7.1em;
+      top: 1.7em;
+      left: 1.7em;
+      border-left: 0.25em solid whitesmoke;
+      transform: rotate(45deg);
+    }
+
+    #hill:after {
+      content: '';
+      position: absolute;
+      width: 7.1em;
+      height: 7.1em;
+      left: 0;
+      background-color: #562bc2;
+      opacity: 0;
+    }
+
+    #box {
+      position: absolute;
+      left: 0;
+      bottom: -0.1em;
+      width: 1em;
+      height: 1em;
+      border: 0.25em solid whitesmoke;
+      border-radius: 15%;
+      transform: translate(0, -1em) rotate(-45deg);
+      animation: push 2.5s cubic-bezier(0.79, 0, 0.47, 0.97) infinite;
+    }
+
+    .loader-text {
+      font-size: 3em;
+      font-family: "STEREOHI", cursive;
+      color: violet;
+      margin-top: 2em;
+      animation: fadeOut 0.5s ease 4s forwards;
+    }
+
+    @keyframes push {
+      0%   { transform: translate(0, -1em) rotate(-45deg); }
+      5%   { transform: translate(0, -1em) rotate(-50deg); }
+      20%  { transform: translate(1em, -2em) rotate(47deg); }
+      25%  { transform: translate(1em, -2em) rotate(45deg); }
+      30%  { transform: translate(1em, -2em) rotate(40deg); }
+      45%  { transform: translate(2em, -3em) rotate(137deg); }
+      50%  { transform: translate(2em, -3em) rotate(135deg); }
+      55%  { transform: translate(2em, -3em) rotate(130deg); }
+      70%  { transform: translate(3em, -4em) rotate(217deg); }
+      75%  { transform: translate(3em, -4em) rotate(220deg); }
+      100% { transform: translate(0, -1em) rotate(-225deg); }
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+
+    h1 {
+      color: #03fcc6;
+    }
+
+    ol, table, p {
+      color: white;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    table th, table td {
+      padding: 8px;
+    }*/
+  </style>
+</head>
+
+<body>
+  <!-- Loader -->
+  <!--<div class="loader-wrapper">
+    <div id="loader">
+      <div id="hill"></div>
+      <div id="box"></div>
+    </div>
+    <p class="loader-text">Loading...</p>
+  </div>
+  </div>-->
+
+  <!-- Page Content -->
+  <main>
+    <!-- Navigation -->
+    <table width="100%" border="0" cellpadding="8" cellspacing="0" bgcolor="#222">
+      <tr>
+        <td align="left">
+          <b>
+            <a href="My Websties.html" style="text-decoration:none; color:#ffb347;">Home</a> |
+            <a href="about me.html" style="text-decoration:none; color:#ffb347;">About Me</a> |
+            <a href="fav game list.html" style="text-decoration:none; color:#7ec8e3;">Fav Game List</a>
+          </b>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Title -->
+    <h1>My Fav Game List</h1>
+
+    <!-- Game List -->
+    <ol>
+      <li><span style="color:#7ec8e3;">Roblox</span></li>
+      <li><span style="color:#b47cff;">Browser</span></li>
+    </ol>
+
+    <!-- Game Details -->
+    <p style="color:#788feb; font-size:1.5em;"><b>Game Details</b></p>
+    <table border="1" cellpadding="8" cellspacing="0" class="frost-glass">
+      <tr>
+        <th style="color:#7ec8e3;">Game</th>
+        <th style="color:#7ec8e3;">Type</th>
+        <th style="color:#7ec8e3;">Why I Like It</th>
+        <th style="color:#7ec8e3;">Logo</th>
+      </tr>
+      <tr>
+        <td style="color:#7ec8e3;">Roblox</td>
+        <td style="color:#ffb347;">Sandbox/Multiplayer</td>
+        <td style="color:#7ec8e3;">Lots of creativity and fun with friends</td>
+        <td><img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/c/4/c/2/c4c28132e4907f73ea0430d18d769c06276e39cc.png" alt="Roblox Logo" width="40" height="40"></td>
+      </tr>
+      <tr>
+        <td style="color:#7ec8e3;">Browser</td>
+        <td style="color:#ffb347;">Web Game</td>
+        <td style="color:#7ec8e3;">Easy to play and always accessible</td>
+        <td><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="Browser Icon" width="40" height="40"></td>
+      </tr>
+    </table>
+
+    <br>
+    <p style="color:#788feb; font-size:1.5em;"><b>More Games Coming Soon!</b></p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="frost-glass">
+    <p>&copy; 2025 My Website lol</p>
+  </footer>
+</body>
+</html>
